@@ -141,7 +141,7 @@ footer {
 
 
 #modal-overlay {
-    background-color: #8ad6ff90;
+  
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -159,7 +159,7 @@ footer {
     max-width: 600px;
     height: auto;
     min-height: 300px;
-    background-color: #3C3E44;
+    background-color: #50d7ee;
     border-radius: 11px;
     display: flex;
     overflow: hidden;
@@ -168,11 +168,11 @@ footer {
 
 #modal span {
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: rgb(255, 3, 3);
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: #a8a8a8;
+    background-color: #ffffff;
     padding: .5rem;
     border-radius: 0 11px 0 11px;
     cursor: pointer;
@@ -180,7 +180,7 @@ footer {
 }
 
 #modal span:hover {
-    background-color: #797979;
+    background-color: #ffffff;
 }
 
 #modal img {
@@ -199,7 +199,8 @@ footer {
 }
 
 #modal h4 {
-    color: #a4a4a4;
+    padding-top: 2rem;
+    color: #000000;
     padding: 5px 0;
     font-weight: 400;
 }
