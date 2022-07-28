@@ -58,11 +58,11 @@ async function disneypers() {
       
                   modalImage.setAttribute("src", data.data[length].imageUrl);
                   modalName = data.data[length].name;
-                  modalid.innerText = data.species;
-                  modalGender.innerText = data.gender;
-                  modalOrigin.innerText = data.origin.name;
-                  modalLocation.innerText = data.location.name;
-                  modalStatus.innerText = data.status; 
+                  modalid.innerText = data.data[length]._id;
+                  modalqa.innerText = data.data[length].films.length
+                  modalqb.innerText = data.data[length].shortFilms.length;
+                  modaltv.innerText = data.data[length].tvShows.length;
+              
             })
 
             window.addEventListener("click", function (event) {
